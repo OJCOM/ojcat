@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     } else if (command == CMD_HLP) {
       printf("Usage: ojcat <command> <file>\n\nCommands:\n-h              Print the ELF header information\n-s              Print program headers (sections)\n-x              Print the file as hex\n-b              Print the file as binary\n-a              Print the file as ASCII (with hex-like layout)\n\nExample:\nojcat -h myfile.elf\n");
     } else if (command == CMD_VRN) {
-      printf("ojcat - a lightweight ELF binary inspection tool\nVersion 0.8\n\nPart of the Oj project — building low-level systems, security tools,\nand developer utilities from scratch, one piece at a time.\n\nProject: Oj — https:\/\/github.com/AboHgegA\n        AND - https:\/\/codeberg.org/ABO-7GAG/\n\n");
+      printf("ojcat - a lightweight ELF binary inspection tool\nVersion 1.0\n\nPart of the Oj project — building low-level systems, security tools,\nand developer utilities from scratch, one piece at a time.\n\nProject: Oj — https:\/\/github.com/AboHgegA\n        AND - https:\/\/codeberg.org/ABO-7GAG/\n\n");
     }
     else {
       exit(EXIT_FAILURE);
